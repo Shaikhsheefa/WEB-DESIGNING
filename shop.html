@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <style>
+        .shop {
+            background-color: #333333;
+            width: 100%;
+            height: 1700px;
+        }
+
+        .shop .shop-header {
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .shop-header h3 {
+            color: orange;
+            padding: 10px 30px;
+        }
+
+        .shop-header h4 {
+            color: orange;
+            padding: 10px 20px;
+        }
+
+        .shop-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #404040;
+            padding: 50px 0;
+            flex-wrap: wrap;
+        }
+
+        .shop-box .card-body h3 {
+            padding: 10px 0;
+        }
+
+        .shop-box .card-body i {
+            color: yellow;
+            font-size: 10px;
+            position: relative;
+            bottom: 5px;
+        }
+
+        .shop-box .card-body .cash {
+            font-size: 22px;
+            margin-left: 90px;
+        }
+
+        .shop-box .card-image img:hover {
+            transform: scale(1.1);
+            transition: transform .4s ease-in-out;
+        }
+
+        .shop-box .card-image {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .shop-box .card-body {
+            padding: 20px;
+            color: white;
+            border: 3px solid #3B3B3B;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>The Coffee House</h4>
+        </div>
+
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/caramel-macchiato.jpg" style="height: 400px"
+                            style="margin-right: 30px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">Rs.349</label>
+                        <h3>Caramel Machiato</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/chocolate-frappuccino.png" style="height: 400px"
+                            style="margin-right: 40px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.430</label>
+                        <h3>Chocolate Frappucino</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/frappe.jpg" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.280</label>
+                        <h3>Frappe</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/caffe-mocha.png" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.360</label>
+                        <h3>Caffe Mocha</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/vanilla-frappuccino.jpg" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.299</label>
+                        <h3>Vanilla Frappucino</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/white-chocolate-mocha.jpg " style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">Rs.499</label>
+                        <h3>White Chocolate Mocha</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/ice-latte.jpg" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.220</label>
+                        <h3>Ice Latte</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item-9">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/images/pumpkin.avif" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.540</label>
+                        <h3>Iced Pumpkin Cream Chai Tea </h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-10">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="C:/Users/SHAIZAAN/Downloads/images/javachip.avif" style="height: 400px;">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">Rs.490</label>
+                        <h3>Java Chip Frappucino </h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
